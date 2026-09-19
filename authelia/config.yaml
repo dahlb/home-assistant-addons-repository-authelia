@@ -12,7 +12,9 @@ arch:
 ports:
   9091/tcp: 9091
 map:
-- addon_config:rw
+  - addon_config:rw
+  - type: share
+    read_only: false
 options:
   domain: exemple.com
 schema:
