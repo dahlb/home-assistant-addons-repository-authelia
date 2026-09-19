@@ -14,7 +14,7 @@ addons:
     target: heimdall
     image: ghcr.io/benoitanastay/heimdall/{arch}
   authelia:
-    repository: BenoitAnastay/authelia-home-assistant-addon
+    repository: dahlb/authelia-home-assistant-addon
     target: authelia
     image: ghcr.io/benoitanastay/authelia/{arch}
   tika-gotenberg:
