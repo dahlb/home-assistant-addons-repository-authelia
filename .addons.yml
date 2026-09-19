@@ -2,15 +2,15 @@
 channel: stable
 addons:
   paperless-ngx:
-    repository: BenoitAnastay/paperless-home-assistant-addon
+    repository: dahlb/paperless-home-assistant-addon
     target: paperless-ngx
     image: ghcr.io/benoitanastay/paperless-ngx/{arch}
   dashy:
-    repository: BenoitAnastay/dashy-home-assistant-addon
+    repository: dahlb/dashy-home-assistant-addon
     target: dashy
     image: ghcr.io/benoitanastay/dashy/{arch}
   heimdall:
-    repository: BenoitAnastay/heimdall-home-assistant-addon
+    repository: dahlb/heimdall-home-assistant-addon
     target: heimdall
     image: ghcr.io/benoitanastay/heimdall/{arch}
   authelia:
@@ -18,6 +18,6 @@ addons:
     target: authelia
     image: ghcr.io/benoitanastay/authelia/{arch}
   tika-gotenberg:
-     repository: BenoitAnastay/tika-gotenberg-home-assistant-addon
+     repository: dahlb/tika-gotenberg-home-assistant-addon
      target: tika-gotenberg
      image: ghcr.io/benoitanastay/tika-gotenberg/{arch}
